@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ccasteras@gmail.com/web-coach
+  repo: ccasteras/web-coach
   branch: main
 
 media_folder: "static/uploads"
