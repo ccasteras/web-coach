@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Assumpta Tebé - Coaching de vida'
+baseURL = "https://web-coach.pages.dev/"
+defaultContentLanguage = "ca"
+defaultContentLanguageInSubdir = false
+
 theme = "ananke"
+
+[languages]
+
+  [languages.ca]
+    languageName = "Català"
+    weight = 1
+
+  [languages.es]
+    languageName = "Castellano"
+    weight = 2
