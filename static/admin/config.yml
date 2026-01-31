@@ -2,9 +2,8 @@ backend:
   name: github
   repo: ccasteras/web-coach
   branch: main
-  base_url: https://github.com
-  auth_endpoint: /login/oauth/authorize
-  client_id: Ov23liwT9kxIcx9sKfNu
+  proxy_url: https://decap-proxy.cloudflareapps.com
+  site_domain: web-coach.pages.dev
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
