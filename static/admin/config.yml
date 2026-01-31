@@ -2,17 +2,31 @@ backend:
   name: github
   repo: ccasteras/web-coach
   branch: main
+  base_url: https://github.com
+  auth_endpoint: /login/oauth/authorize
+  client_id: Ov23liwT9kxIcx9sKfNu
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pàgines"
+
+  - name: "pages_ca"
+    label: "Pàgines (Català)"
     files:
       - label: "Inici"
-        name: "home"
-        file: "content/_index.md"
+        name: "home_ca"
+        file: "content/_index.ca.md"
         fields:
           - { label: "Títol", name: "title", widget: "string" }
           - { label: "Contingut", name: "body", widget: "markdown" }
+
+  - name: "pages_es"
+    label: "Páginas (Castellano)"
+    files:
+      - label: "Inicio"
+        name: "home_es"
+        file: "content/_index.es.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Contenido", name: "body", widget: "markdown" }
