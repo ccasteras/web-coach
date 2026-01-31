@@ -1,6 +1,6 @@
 ---
-title: "Nom Cognom"
----
+title: "Assumpta Tebé"
+---    
 
 ## Coach personal i professional
 
