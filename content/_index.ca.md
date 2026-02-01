@@ -1,7 +1,7 @@
 ---
 title: "Assumpta Tebé"
 ---    
-## PÀGINA EN CONSTRUCCIÓ
+## PÀGINA EN CONSTRUCCIÓ...
 
 
 ## Coach personal i professional
